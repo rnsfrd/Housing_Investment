@@ -17,12 +17,12 @@
 
 Real estate investing is a research and capital intensive endeavor. When considering a property to invest in, one must consider the factors that contribute to property value in that area. For example, square footage in Manhattan makes a much bigger difference than a few hours in upstate New York where land is abundant. For example the table below illustrates the differences in ‘important factors’ between New York State and New York City according to their official government websites. 
 
-|   New York State|   New York City	|   	|  	|   	|
+|   New York State|   New York City	|   	|  	
 |---	|---	|---	|---	|---	|
-|   Neighborhood	|  Income and Expense 	|   	|   	
-| School District  	|  Utility company 	|   	|   
-|   Curb Appeal	|     Nearby office buildings, factories, stores, hotels	| 	|  
-|   Appliance Condition	|   Property value of nearby units last 3 years	|   	|  
+|   Neighborhood	|  Income and Expense 	|   	   	
+| School District  	|  Utility company 	|   	
+|   Curb Appeal	|     Nearby office buildings, factories, stores, hotels	| 	
+|   Appliance Condition	|   Property value of nearby units last 3 years	|     
 
 
 
@@ -88,13 +88,13 @@ For linear regression our models were not scaled however for our scaled models a
 Some interesting observations are that the extra features for the house such as pool, fences, porches, fireplaces, etc don't really contribute to the price of a house however the overall functionality largely determines price. This however could also be correlated with the year a house was built as the quality of appliances is better, this could possible represent a collinearity that was not considered at first as shown by the correlation between Year Built and house price.
 
 
-<img src="Images/features.model2.png"  width="450" height="450">
+<img src="Images/features.model2.png"  width="600" height="400">
 
-<img src="Images/yearbuilt.png"  width="700" height="700">
+<img src="Images/yearbuilt.png"  width="600" height="400">
 
 Additionally there doesn't seem to be much of a correlation because Lot Area (square footage) and house price. This could possibly be because Iowa is a very rural area where land price is not as expensive therefore does not have a significant effect on house price.
 
-<img src="Images/lotarea.png"  width="700" height="700">
+<img src="Images/lotarea.png"  width="600" height="400">
 
 
 
@@ -107,9 +107,9 @@ The recommendation here would be for investors looking in Ames Iowa to focus mor
 
   	
 
-|   NY State Property Value Factors	|   NYC Property Value Factors	| |  |   	|
+|   NY State Property Value Factors	|   NYC Property Value Factors	| 
 |---	|---	|---	|---	|---	|
-|   https://www.tax.ny.gov/pubs_and_bulls/orpts/mv_estimates.htm	|   https://www1.nyc.gov/site/finance/taxes/property-determining-your-market-value.page	|   	|   	|   	|
+|   https://www.tax.ny.gov/pubs_and_bulls/orpts/mv_estimates.htm	|   https://www1.nyc.gov/site/finance/taxes/property-determining-your-market-value.page	|   	
 
 
 ```
