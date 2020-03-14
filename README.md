@@ -76,10 +76,18 @@ We then ran several regressions on our scaled data to determine which model best
 |   Test	|  0.646 	|  0.646 	|   0.645	|   	
 |   Train	|   0.603	|   0.559	|   0.558|   	
 
-|   Model 2|   Linear	|   Lasso	|   Ridge	|   	
+
+| **Model 1** 	| **Linear**  	| **Lasso**  	| **Ridge**  	|
 |---	|---	|---	|---	|
-|   Test	|   0.602	|   0.602	|   0.602	|   	
-|   Train	|   0.549	|   0.543	|   0.541	|   	
+| **Train**  	| 0.603   	| 0.559  	| 0.558  	|
+|  **Test** 	| 0.646 	| 0.646  	| 0.645  	|
+
+
+| **Model 1** 	| **Linear**  	| **Lasso**  	| **Ridge**  	|
+|---	|---	|---	|---	|
+| **Train**  	| 0.549   	| 0.543  	| 0.541  	|
+|  **Test** 	| 0.602 	| 0.602  	| 0.602  	|
+	
 
 For linear regression our models were not scaled however for our scaled models and for that reason is why our Model 1 looked like a clear winner. However with our scaled data, Model 2 performed better having close to the same R-squared as Model with half the variance. Model 1 was significantly over fit in our Lasso and Ridge regressions and Model 2 had significantly less variance than Model 1. 
 
@@ -89,7 +97,7 @@ Some interesting observations are that the extra features for the house such as 
 
 <img src="Images/features.model2.png"  width="600" height="400">
 
-<img src="Images/yearbuilt.png"  width="7000" height="400">
+<img src="Images/yearbuilt.png"  width="650" height="400">
 
 Additionally there doesn't seem to be much of a correlation because Lot Area (square footage) and house price. This could possibly be because Iowa is a very rural area where land price is not as expensive therefore does not have a significant effect on house price.
 
