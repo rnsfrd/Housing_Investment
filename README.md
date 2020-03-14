@@ -1,7 +1,7 @@
 # Optimal Real Estate Investment in Ames, Iowa
 
 
-## README Contents
+# README Contents
 
 - [Introduction](#introduction) 
 - [Methodology](#methodology)
@@ -29,7 +29,6 @@ Real estate investing is a research and capital intensive endeavor. When conside
 Additionally, firms and individual investors typically take on two different styles of property investing. Either holding for the long term and expecting the price of a property to go up based on the price of land in the area, the value of the neighborhood, the house style, etc. Other types of investors take a more active role and look to make a profit from remodelling or renovating a house, placing more value on things such as the functionality of a house, the appliance quality, whether or not it has pools, fences, etc. 
 
 This model aims to figure out which investing style is best fitted for Ames, Iowa.
-
 
 
 # Methodology <a id='methodology'></a>
@@ -113,7 +112,6 @@ NY State Property Value Factors: https://www.tax.ny.gov/pubs_and_bulls/orpts/mv_
 
 NYC Property Value Factors: https://www1.nyc.gov/site/finance/taxes/property-determining-your-market-value.page	
 
-s
 
 ```
 
