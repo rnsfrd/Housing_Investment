@@ -71,15 +71,15 @@ We then ran several regressions on our scaled data to determine which model best
 
 ## Comparison of Regressions for Models <a id='regressions'></a>
 
-|   Model 1	|   Linear	|   Lasso	|   Ridge	|   	|
+|   Model 1	|   Linear	|   Lasso	|   Ridge	|   	
 |---	|---	|---	|---	|---	|
-|   Test	|  0.646 	|  0.646 	|   0.645	|   	|
-|   Train	|   0.603	|   0.559	|   0.558|   	|
+|   Test	|  0.646 	|  0.646 	|   0.645	|   	
+|   Train	|   0.603	|   0.559	|   0.558|   	
 
-|   Model 2|   Linear	|   Lasso	|   Ridge	|   	|
-|---	|---	|---	|---	|---	|
-|   Test	|   0.602	|   0.602	|   0.602	|   	|
-|   Train	|   0.549	|   0.543	|   0.541	|   	|
+|   Model 2|   Linear	|   Lasso	|   Ridge	|   	
+|---	|---	|---	|---	|
+|   Test	|   0.602	|   0.602	|   0.602	|   	
+|   Train	|   0.549	|   0.543	|   0.541	|   	
 
 For linear regression our models were not scaled however for our scaled models and for that reason is why our Model 1 looked like a clear winner. However with our scaled data, Model 2 performed better having close to the same R-squared as Model with half the variance. Model 1 was significantly over fit in our Lasso and Ridge regressions and Model 2 had significantly less variance than Model 1. 
 
@@ -87,16 +87,13 @@ For linear regression our models were not scaled however for our scaled models a
 
 Some interesting observations are that the extra features for the house such as pool, fences, porches, fireplaces, etc don't really contribute to the price of a house however the overall functionality largely determines price. This however could also be correlated with the year a house was built as the quality of appliances is better, this could possible represent a collinearity that was not considered at first as shown by the correlation between Year Built and house price.
 
-
 <img src="Images/features.model2.png"  width="600" height="400">
 
-<img src="Images/yearbuilt.png"  width="600" height="400">
+<img src="Images/yearbuilt.png"  width="650" height="400">
 
 Additionally there doesn't seem to be much of a correlation because Lot Area (square footage) and house price. This could possibly be because Iowa is a very rural area where land price is not as expensive therefore does not have a significant effect on house price.
 
 <img src="Images/lotarea.png"  width="600" height="400">
-
-
 
 # Conclusions and Recommendations <a id='conclusion'></a>
 
@@ -104,12 +101,9 @@ The recommendation here would be for investors looking in Ames Iowa to focus mor
 
 # Sources<a id='sources'></a>
 
+NY State Property Value Factors: https://www.tax.ny.gov/pubs_and_bulls/orpts/mv_estimates.htm 
 
-  	
-
-|   NY State Property Value Factors	|   NYC Property Value Factors	| 
-|---	|---	|---	|---	|---	|
-|   https://www.tax.ny.gov/pubs_and_bulls/orpts/mv_estimates.htm	|   https://www1.nyc.gov/site/finance/taxes/property-determining-your-market-value.page	|   	
+NYC Property Value Factors: https://www1.nyc.gov/site/finance/taxes/property-determining-your-market-value.page	
 
 
 ```
