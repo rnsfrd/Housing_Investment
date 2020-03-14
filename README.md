@@ -70,12 +70,6 @@ We then ran several regressions on our scaled data to determine which model best
 
 ## Comparison of Regressions for Models <a id='regressions'></a>
 
-|   Model 1	|   Linear	|   Lasso	|   Ridge	|   	
-|---	|---	|---	|---	|---	|
-|   Test	|  0.646 	|  0.646 	|   0.645	|   	
-|   Train	|   0.603	|   0.559	|   0.558|   	
-
-
 | **Model 1** 	| **Linear**  	| **Lasso**  	| **Ridge**  	|
 |---	|---	|---	|---	|
 | **Train**  	| 0.603   	| 0.559  	| 0.558  	|
