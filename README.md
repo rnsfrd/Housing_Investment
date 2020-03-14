@@ -105,6 +105,7 @@ NY State Property Value Factors: https://www.tax.ny.gov/pubs_and_bulls/orpts/mv_
 
 NYC Property Value Factors: https://www1.nyc.gov/site/finance/taxes/property-determining-your-market-value.page	
 
+s
 
 ```
 
