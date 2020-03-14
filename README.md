@@ -17,12 +17,12 @@
 
 Real estate investing is a research and capital intensive endeavor. When considering a property to invest in, one must consider the factors that contribute to property value in that area. For example, square footage in Manhattan makes a much bigger difference than a few hours in upstate New York where land is abundant. For example the table below illustrates the differences in ‘important factors’ between New York State and New York City according to their official government websites. 
 
-|   New York State|   New York City	|   	|  	
-|---	|---	|---	|---	|---	|
-|   Neighborhood	|  Income and Expense 	|   	   	
-| School District  	|  Utility company 	|   	
-|   Curb Appeal	|     Nearby office buildings, factories, stores, hotels	| 	
-|   Appliance Condition	|   Property value of nearby units last 3 years	|     
+|  **New York State**	| **New York City**  	|
+|---	|---	|
+|   Neighborhood	| Income and Expense  	|
+| School District  	| Utility Company  	|
+| Curb Appeal  	| Nearby office buildings, factories, stores, hotels  	|
+| Appliance Condition  	| Property Value of Nearby Units Last 3 Years  	|
 
 
 
@@ -89,7 +89,7 @@ Some interesting observations are that the extra features for the house such as 
 
 <img src="Images/features.model2.png"  width="600" height="400">
 
-<img src="Images/yearbuilt.png"  width="650" height="400">
+<img src="Images/yearbuilt.png"  width="7000" height="400">
 
 Additionally there doesn't seem to be much of a correlation because Lot Area (square footage) and house price. This could possibly be because Iowa is a very rural area where land price is not as expensive therefore does not have a significant effect on house price.
 
